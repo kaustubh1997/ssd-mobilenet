@@ -1,0 +1,20 @@
+// first clone the repository in your home folder or anywhere else you'd like. The name of folder will  be ssd-mobilenet
+// To upload anything new to the online repository, paste it in this folder, then open a terminal in this ssd-mobilenet, and run the following commands:
+//This will push your additions to the online repository, so you can use it on google colab
+
+// Note: new 'data' folders should be added in following directory with following format: datas/data_v"version_number"/data
+
+
+
+git init
+
+git add .  // or // git add "adress of file from ssd-mobilenet folder
+
+git commit -m "added tensorflow API setup notebook"
+
+git remote add origin https://github.com/kaustubh1997/ssd-mobilenet.git
+
+git remote -v
+
+git push origin master
+	//will prompt for username and password, enter yours, as you are now collaborator
